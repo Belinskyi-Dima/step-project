@@ -18,35 +18,6 @@ tabsBtn.forEach(function(item) {
 });
 
 
-// const workIt = document.querySelectorAll(".work-item");
-// const workPhoto =document.querySelectorAll('.work-photo-item')
-// workIt.forEach(e => {
-// 	e.onclick = function () {
-// 		workIt.forEach(e => {
-// 			e.className = "work-item";
-// 			console.log(e)
-// 		})
-// 		e.className = "current";
-// 		// e.style.border= "1px solid #18CFAB"
-// // 
-// 		// const value = e.textContent;
-// 		const value = e.getAttribute('data-tabe-name');
-// 		workPhoto.forEach(img => {
-// 			img.style.display = "none";
-
-// 			// e.style.border= "1px solid #18CFAB"
-// 			if(img.getAttribute('data-filter') == value.toLowerCase()){
-// 				// img.removeAttribute("style");
-// 				img.style.display= "block";
-// 			}
-// 		})
-// }
-// element.style.border= "1px solid #18CFAB"-----
-
-// 	});
-
-
-
 
 $(document).ready(function() {
 	$('.slider').slick({
